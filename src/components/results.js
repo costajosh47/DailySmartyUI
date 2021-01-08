@@ -3,6 +3,11 @@ import Logo from './logo';
 import SearchBar from './searchBar';
                                             
 class Results extends Component {
+    
+    handleSearchBarSubmit(query){
+        
+    }
+    
     render () {
         return (
             <div>
