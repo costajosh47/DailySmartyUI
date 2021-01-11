@@ -1,3 +1,6 @@
+@import "./variables.scss";
+@import "./searchBar.scss";
+
 .post-topic {
     margin: 0 4px;
 }
@@ -20,5 +23,11 @@ body {
     width: 66vw;
     display:grid;
     align-content: space-evenly;
+    justify-items: stretch;
+}
+
+.logo-main,
+.recent-posts {
+    display: grid;
     justify-items: center;
 }
