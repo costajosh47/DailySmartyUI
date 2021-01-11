@@ -1,5 +1,9 @@
+@import "./mixins.scss";
 @import "./variables.scss";
 @import "./searchBar.scss";
+@import "./recentPosts.scss";
+@import "./results.scss";
+@import "./home.scss";
 
 .post-topic {
     margin: 0 4px;
@@ -18,16 +22,14 @@ body {
     justify-content: center;
 }
 
-.home {
-    height: 100vh;
-    width: 66vw;
-    display:grid;
-    align-content: space-evenly;
-    justify-items: stretch;
-}
-
 .logo-main,
 .recent-posts {
     display: grid;
     justify-items: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
