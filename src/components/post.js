@@ -54,6 +54,7 @@ class Post extends Component {
                     </div>
 
                     <div className='result-post-title'>
+                        
                         <a 
                         href={this.props.url_for_post}
                         onMouseEnter={() => {this.setState({height: 70})}}
