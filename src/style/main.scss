@@ -2,16 +2,9 @@
 @import "./variables.scss";
 @import "./searchBar.scss";
 @import "./recentPosts.scss";
+@import "./post.scss";
 @import "./results.scss";
 @import "./home.scss";
-
-.post-topic {
-    margin: 0 4px;
-}
-
-html {
-    font-family: 'Lato', sans-serif;
-}
 
 body {
     font-family: 'Lato', sans-serif;
