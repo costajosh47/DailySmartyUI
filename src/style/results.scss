@@ -37,14 +37,17 @@
       line-height: 22px;
    }
    .result-post-links {
-      // display: flex;
-
+      display: flex;
+      height:70px;
+      
    }
 }
 
 .post-link {
    display:flex;
    min-height: 60px;
+   flex-basis: 205px;
+   margin-right: 37px;
    
    .post-link-box {
       min-width: 60px;
